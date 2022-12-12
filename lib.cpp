@@ -1,11 +1,20 @@
-
+#include <iostream>
 #include "lib.h"
-float max(float a[], int n) {
-    float b=1;
-for (int i=0; i<n; i++){
-    if(a[i]>b){
-        b=a[i];
+using namespace std;
+
+float max( float m[], int dimensione ){
+
+    int i;
+    float c;
+    c=m[0];
+    for (i=0; i<dimensione; i++){
+
+        if(m[i]>=c){
+            c=m[i];
+        }
     }
+
+    return c;
+
 }
-    return b;
-}
+
