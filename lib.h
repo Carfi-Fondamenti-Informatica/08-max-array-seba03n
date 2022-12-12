@@ -1,1 +1,2 @@
-float max(float a[], int n);
+
+float max(float m[], int dimensione);
